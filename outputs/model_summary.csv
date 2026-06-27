@@ -1,0 +1,16 @@
+crop,best_model,mape
+rice,rf_cds_dt,0.1819
+corn,exp_smooth,0.2346
+coconut,grand_means,0.2685
+sugarcane,grand_means,0.2784
+banana,naive,0.269
+pineapple,gbr_cds_dt,0.1601
+coffee,naive,0.2574
+cacao,naive,0.246
+cassava,auto_arima,0.2369
+sweet_potato,naive,0.1356
+groundnut,arima,0.293
+onion,auto_arima,0.3733
+garlic,croston,0.2689
+eggplant,auto_arima,0.2467
+cabbage,ets,0.1928

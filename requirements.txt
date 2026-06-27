@@ -1,0 +1,29 @@
+# FAO Time Series Forecasting - Philippines Food Security
+# Python 3.10+ recommended (PyCaret compatibility)
+
+# Core data stack
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+
+# Machine learning
+scikit-learn>=1.4
+xgboost>=2.0
+lightgbm>=4.0
+
+# Time series specific
+statsmodels>=0.14
+pmdarima>=2.0          # Auto ARIMA
+prophet>=1.1           # Facebook Prophet
+
+# PyCaret time series module
+pycaret[time_series]>=3.3
+
+# Jupyter support
+notebook>=7.0
+ipykernel>=6.0
+
+# Utilities
+tqdm>=4.66
+openpyxl>=3.1          # Excel read/write

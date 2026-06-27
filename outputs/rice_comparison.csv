@@ -1,0 +1,25 @@
+,Model,MASE,RMSSE,MAE,RMSE,MAPE,SMAPE,R2,TT (Sec)
+rf_cds_dt,Random Forest w/ Cond. Deseasonalize & Detrending,10.2238,11.4794,1351986.1421,1704986.3922,0.1819,0.2171,-0.6937,0.82
+gbr_cds_dt,Gradient Boosting w/ Cond. Deseasonalize & Detrending,10.348,11.6331,1376328.4559,1756041.5163,0.1834,0.2201,-0.7405,0.06
+ada_cds_dt,AdaBoost w/ Cond. Deseasonalize & Detrending,10.3506,11.5451,1377360.2982,1711600.4935,0.1843,0.2207,-0.7131,0.69
+polytrend,Polynomial Trend Forecaster,10.3305,11.5062,1398397.5812,1722663.5196,0.1845,0.2207,-0.7019,0.52
+et_cds_dt,Extra Trees w/ Cond. Deseasonalize & Detrending,10.3395,11.5589,1373032.5104,1718544.6442,0.1846,0.2204,-0.7173,0.845
+lightgbm_cds_dt,Light Gradient Boosting w/ Cond. Deseasonalize & Detrending,10.3463,11.514,1404376.5194,1726427.915,0.185,0.2213,-0.7044,0.675
+huber_cds_dt,Huber w/ Cond. Deseasonalize & Detrending,10.3494,11.5148,1404824.5579,1726839.7669,0.1853,0.2216,-0.7046,0.12
+br_cds_dt,Bayesian Ridge w/ Cond. Deseasonalize & Detrending,10.3981,11.5456,1416754.6834,1734770.6649,0.1864,0.223,-0.7139,0.045
+llar_cds_dt,Lasso Least Angular Regressor w/ Cond. Deseasonalize & Detrending,10.416,11.5582,1421198.6125,1737915.9271,0.1869,0.2236,-0.7177,0.12
+lasso_cds_dt,Lasso w/ Cond. Deseasonalize & Detrending,10.416,11.5582,1421198.6125,1737915.9271,0.1869,0.2236,-0.7177,0.05
+omp_cds_dt,Orthogonal Matching Pursuit w/ Cond. Deseasonalize & Detrending,10.416,11.5582,1421198.6125,1737915.9271,0.1869,0.2236,-0.7177,0.645
+en_cds_dt,Elastic Net w/ Cond. Deseasonalize & Detrending,10.416,11.5582,1421198.6125,1737915.9271,0.1869,0.2236,-0.7177,0.12
+ridge_cds_dt,Ridge w/ Cond. Deseasonalize & Detrending,10.416,11.5582,1421198.6125,1737915.9271,0.1869,0.2236,-0.7177,0.045
+lr_cds_dt,Linear w/ Cond. Deseasonalize & Detrending,10.416,11.5582,1421198.6125,1737915.9271,0.1869,0.2236,-0.7177,0.125
+xgboost_cds_dt,Extreme Gradient Boosting w/ Cond. Deseasonalize & Detrending,10.4971,11.6132,1434523.9791,1745960.5835,0.1886,0.2259,-0.7341,0.665
+dt_cds_dt,Decision Tree w/ Cond. Deseasonalize & Detrending,10.6826,11.8827,1506935.605,1882027.7135,0.196,0.233,-0.8316,1.01
+exp_smooth,Exponential Smoothing,10.8766,11.9111,1604631.2838,1917178.2665,0.2017,0.2408,-0.85,0.52
+ets,ETS,11.6016,12.6859,1683140.2531,2006118.7299,0.2136,0.2592,-1.0867,0.015
+auto_arima,Auto ARIMA,11.6597,12.697,1729904.6576,2058268.5713,0.2171,0.2625,-1.1079,0.54
+theta,Theta Forecaster,11.9226,12.9192,1945647.3354,2324752.3797,0.2317,0.2785,-1.3389,0.015
+naive,Naive Forecaster,13.4391,14.3248,2506131.575,2969911.9094,0.2811,0.3439,-2.4635,1.035
+arima,ARIMA,13.6396,14.4538,2858113.743,3353597.0729,0.3059,0.3796,-3.3755,0.53
+croston,Croston,15.451,15.7436,3195376.1815,3580511.796,0.3502,0.4401,-3.9774,0.005
+grand_means,Grand Means Forecaster,16.3592,16.3925,3564071.2833,3923821.8104,0.3852,0.4951,-5.0257,0.545

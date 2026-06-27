@@ -1,0 +1,27 @@
+# ── Virtual environment ───────────────────────
+.venv/
+venv/
+env/
+
+# ── Raw FAO zip files (large, re-downloadable) ─
+data/raw/
+
+# ── Python cache ─────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── macOS metadata ────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── Logs ─────────────────────────────────────
+*.log
+logs.log
+
+# ── Claude Code tool settings ─────────────────
+.claude/
+
+# ── Jupyter checkpoints ───────────────────────
+.ipynb_checkpoints/
+*.ipynb
