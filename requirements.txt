@@ -1,38 +1,7 @@
-# Philippine Food-Security Forecasting — Python 3.11
-# Tested versions are pinned to match PyCaret 3.3.2's strict constraints.
-# Install: pip install -r requirements.txt --prefer-binary
-# git test by acn, tkl
-# ── Core data stack ───────────────────────────────────────────────────────────
-# pandas and numpy upper bounds are required by PyCaret 3.3.2
-pandas>=2.1,<2.2
-numpy>=1.26,<1.27
-scipy>=1.11,<=1.11.4
-joblib>=1.2,<1.4
-
-# ── Visualisation ─────────────────────────────────────────────────────────────
-# matplotlib upper bound required by PyCaret 3.3.2 (<3.8)
-matplotlib>=3.7,<3.8
-seaborn>=0.13
-plotly>=5.14                # interactive charts in dashboard + PyCaret plots
-
-# ── Dashboard ─────────────────────────────────────────────────────────────────
+# Philippine Food-Security Forecasting — Streamlit Dashboard
+# Minimal dependencies for dashboard.py only.
+# The dashboard reads pre-computed CSV/HTML files — no ML packages needed.
+pandas>=2.1
+numpy>=1.26
+plotly>=5.14
 streamlit>=1.35
-watchdog>=3.0               # Streamlit hot-reload (optional but recommended)
-
-# ── Machine learning ──────────────────────────────────────────────────────────
-scikit-learn>1.4.0,<1.5
-xgboost>=2.0
-lightgbm>=3.0
-
-# ── Time series specific ──────────────────────────────────────────────────────
-statsmodels>=0.14
-pmdarima>=2.0               # Auto ARIMA
-prophet>=1.1                # Facebook Prophet
-
-# ── PyCaret time series module ────────────────────────────────────────────────
-# Install last so its dependency resolver can see the pinned versions above
-pycaret[time_series]>=3.3,<3.4
-
-# ── Utilities ─────────────────────────────────────────────────────────────────
-tqdm>=4.62
-openpyxl>=3.1               # Excel read/write
