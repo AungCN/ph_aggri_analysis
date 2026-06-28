@@ -221,7 +221,7 @@ if page == "🏠 Overview":
             return f"color: {COLOR_DEFICIT}" if val == "DEFICIT" else f"color: {COLOR_SURPLUS}"
 
         st.dataframe(
-            tbl.style.applymap(colour_status, subset=["Status"]),
+            tbl.style.map(colour_status, subset=["Status"]),
             use_container_width=True, hide_index=True, height=400,
         )
 
